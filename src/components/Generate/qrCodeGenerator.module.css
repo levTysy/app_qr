@@ -23,9 +23,18 @@
 
 .button {
   border: none;
-  background: black;
-  color: white;
+  background-color: rgb(48, 29, 88);
+  color: rgb(216, 199, 176);
   font-size: 20px;
   border-radius: 16px;
   padding: 8px 16px;
+}
+
+.button:hover {
+  background-color: rgb(116, 97, 154);
+}
+
+.button:active {
+  background-color: rgb(29, 19, 37);
+  color: rgb(255, 255, 255);
 }
