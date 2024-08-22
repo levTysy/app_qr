@@ -8,7 +8,7 @@
   padding: 6px;
   text-decoration: none;
   border-radius: 10px;
-  color: rgb(216, 199, 176);
+  color: rgb(233, 225, 214);
   background-color: rgb(48, 29, 88);
 }
 
@@ -19,4 +19,15 @@
 .container a:active {
   background-color: rgb(29, 19, 37);
   color: rgb(255, 255, 255);
+}
+
+@media (max-width: 500px) {
+  .container {
+    display: grid;
+  }
+
+  .container a {
+    display: block;
+    text-align: center;
+  }
 }
