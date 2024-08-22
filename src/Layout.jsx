@@ -4,11 +4,13 @@ import { Navigation } from "./components/Navigation/Navigation";
 import { ScanHistory } from "./components/ScanHistory";
 import { GenerateHistory } from "./components/GenerateHistory";
 
+import s from './layout.module.css';
+
 
 
 export const Layout = () => {
   return (
-    <div>
+    <div className={s.main}>
       <Navigation  />
 
       <Routes>
